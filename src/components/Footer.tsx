@@ -20,7 +20,7 @@ const Footer = () => {
               placeholder="Enter your email"
               className="bg-transparent px-3 py-2 text-sm w-full outline-none"
             />
-            <button className="bg-white text-black px-4 py-2 text-sm font-medium hover:bg-gray-200 transition">
+            <button className="bg-white text-black px-4 py-2 text-sm font-medium hover:bg-gray-200 transition hover:cursor-pointer">
               Submit
             </button>
           </div>
@@ -101,7 +101,7 @@ const Footer = () => {
 
           <div className="flex gap-4 items-start">
             {/* QR Code */}
-            <Image src="/qrCode.png" alt="QR Code" width={80} height={80} />
+            <Image src="/qrcode.png" alt="QR Code" width={80} height={80} />
 
             <div className="flex flex-col gap-2">
               <Image
