@@ -15,7 +15,7 @@ import {
 const Navbar = () => {
   return (
     <nav className="border-b bg-white">
-      <div className="">
+      <div className="sm:max-w-xl md:max-w-2xl lg:max-w-5xl xl:max-w-7xl px-4 mx-auto">
         <div className="flex h-16 items-center justify-between">
           {/* LEFT — LOGO */}
           <div className="flex items-center gap-2 cursor-pointer">
@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* RIGHT — ACTIONS */}
           <div className="flex items-center gap-4">
             {/* Search */}
-            <div className="hidden sm:flex items-center border rounded-md px-2">
+            <div className="hidden sm:flex items-center border rounded-md px-2 shadow-lg">
               <Search className="w-4 h-4 text-gray-500" />
               <input
                 type="text"
