@@ -3,6 +3,7 @@ import BestSelling from "@/components/sections/BestSelling";
 import BrowseByCategory from "@/components/sections/BrowseByCategory";
 import ExploreProducts from "@/components/sections/ExploreProducts";
 import FlashSales from "@/components/sections/FlashSales";
+import NewArrival from "@/components/sections/NewArrival";
 import React from "react";
 
 const Homepage = () => {
@@ -14,6 +15,7 @@ const Homepage = () => {
         <BrowseByCategory />
         <BestSelling />
         <ExploreProducts />
+        <NewArrival />
       </div>
     </main>
   );

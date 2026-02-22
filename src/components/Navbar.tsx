@@ -15,7 +15,7 @@ import {
 const Navbar = () => {
   return (
     <nav className="border-b bg-white">
-      <div className="max-w-xl md:max-w-2xl lg:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="max-w-xl md:max-w-2xl lg:max-w-6xl 2xl:max-w-7xl max-sm:px-4 mx-auto">
         <div className="flex h-16 items-center justify-between">
           {/* LEFT — LOGO */}
           <div className="flex items-center gap-2 cursor-pointer">

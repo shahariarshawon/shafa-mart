@@ -30,7 +30,7 @@ const HeroSidebar = () => {
   };
 
   return (
-    <aside className="w-64 bg-white border-r  overflow-y-auto sticky top-0">
+    <aside className="w-64 bg-white border-r  overflow-y-auto sticky top-0 max-sm:hidden">
       <ul className="flex flex-col gap-1">
         {categories.map((cat, idx) => (
           <li key={cat.name} className="flex flex-col">
