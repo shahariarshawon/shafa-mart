@@ -2,6 +2,7 @@ import Banner from "@/components/sections/Banner";
 import BestSelling from "@/components/sections/BestSelling";
 import BrowseByCategory from "@/components/sections/BrowseByCategory";
 import ExploreProducts from "@/components/sections/ExploreProducts";
+import Features from "@/components/sections/Features";
 import FlashSales from "@/components/sections/FlashSales";
 import NewArrival from "@/components/sections/NewArrival";
 import React from "react";
@@ -16,6 +17,7 @@ const Homepage = () => {
         <BestSelling />
         <ExploreProducts />
         <NewArrival />
+        <Features />
       </div>
     </main>
   );
