@@ -2,7 +2,7 @@ import React from "react";
 import HeroSlider from "../HeroSlider";
 import HeroSidebar from "../HeroSidebar";
 
-const Featured = () => {
+const Banner = () => {
   return (
     <main className="flex flex-col md:flex-row py-8 ">
       <div className="w-full md:w-1/4">
@@ -15,4 +15,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default Banner;
