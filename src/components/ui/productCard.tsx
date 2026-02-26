@@ -3,8 +3,9 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./button";
 import { Heart, Star } from "lucide-react";
+import { TProduct } from "@/types/product";
 
-const ProductCard = ({ product }: { product: any }) => {
+const ProductCard = ({ product }: { product: TProduct }) => {
   return (
     <div>
       <div
