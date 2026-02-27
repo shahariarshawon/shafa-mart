@@ -1,10 +1,12 @@
 import "dotenv/config";
 
 import * as bcrypt from "bcrypt";
-import clientPromise from "@/lib/mongodb";
+import clientPromise from "../src/lib/mongodb";
+
 async function seedUsers() {
   const client = await clientPromise;
   const db = client.db();
+
   const saltRounds = 10;
 
   const {
@@ -46,12 +48,13 @@ async function seedUsers() {
       createdAt: new Date(),
     },
   ]);
-  console.log("Admin and user seeded successfully");
+
+  console.log("Admin and User seeded successfully");
 }
 
 seedUsers()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error("Sending failed: ", error);
+    console.error("Seeding failed:", error);
     process.exit(1);
   });
